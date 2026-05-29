@@ -1,13 +1,8 @@
-# ArtStation UI Clone
-
-A pixel-perfect UI clone of the ArtStation Explore page built with React and Tailwind CSS.
-
 ## Run Locally
 
-**Prerequisites:**  Node.js
+**Prerequisites:** Node.js
 
 1. Install dependencies:
    `npm install`
-2. Run the development server:
+2. Run the app:
    `npm run dev`
-3. Open `http://localhost:3000` in your browser.

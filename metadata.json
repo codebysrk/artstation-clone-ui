@@ -1,0 +1,6 @@
+{
+  "name": "Obsidian Gallery",
+  "description": "A high-performance digital art showcase and portfolio platform with a clean obsidian dark style.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

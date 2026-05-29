@@ -1,14 +1,30 @@
-import React from 'react';
-import { Search, ShoppingCart, MoreVertical, Menu, Pencil, LogIn } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Search, ShoppingCart, MoreVertical, Menu, Pencil, LogIn, X } from 'lucide-react';
 
 export default function Header() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [isMobileMenuOpen]);
+
   return (
     <header className="sticky top-0 z-50 w-full bg-[#0B0D14] text-[14px] font-sans antialiased border-b border-transparent">
-      <div className="mx-auto w-full px-4 lg:px-8 h-[72px] flex items-center justify-between relative">
+      <div className="mx-auto w-full px-4 lg:px-8 h-[72px] flex items-center justify-between relative bg-[#0B0D14] z-50">
 
         <div className="md:hidden flex flex-1 justify-start">
-          <button className="text-[#8F939D] hover:text-white transition-colors cursor-pointer shrink-0">
-            <Menu className="h-8 w-8" />
+          <button 
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="text-[#8F939D] hover:text-white transition-colors cursor-pointer shrink-0 p-2 -ml-2"
+          >
+            {isMobileMenuOpen ? <X className="h-8 w-8" /> : <Menu className="h-8 w-8" />}
           </button>
         </div>
 
@@ -62,6 +78,44 @@ export default function Header() {
         </div>
 
       </div>
+
+      <nav 
+        className={`md:hidden absolute top-[72px] left-0 w-full h-[calc(100vh-72px)] bg-[#101115] flex flex-col z-40 overflow-y-auto pb-10 transition-all duration-300 ease-in-out ${
+          isMobileMenuOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-4'
+        }`}
+      >
+        <div className="px-5 py-4 flex flex-col gap-6">
+            <div className="flex items-center justify-between text-gray-400">
+                <button className="hover:text-white transition p-1">
+                    <ShoppingCart className="w-6 h-6" />
+                </button>
+                <button className="flex items-center gap-2 hover:text-white transition font-medium text-sm tracking-wide p-1">
+                    <Pencil className="w-4 h-4" />
+                    SIGN UP
+                </button>
+            </div>
+
+            <div className="relative">
+                <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                    <Search className="w-5 h-5 text-gray-500" />
+                </div>
+                <input 
+                  type="text" 
+                  placeholder="Search" 
+                  className="w-full bg-[#1e2025] text-white border border-gray-700 rounded-full py-2.5 pl-11 pr-4 focus:outline-none focus:border-gray-500 focus:bg-[#25282e] transition" 
+                />
+            </div>
+
+            <ul className="flex flex-col mt-2 gap-1">
+                <li><button className="w-full text-left block py-3 text-[19px] text-gray-300 hover:text-white transition">Explore</button></li>
+                <li><button className="w-full text-left block py-3 text-[19px] text-gray-300 hover:text-white transition">Learn</button></li>
+                <li><button className="w-full text-left block py-3 text-[19px] text-gray-300 hover:text-white transition">Shop</button></li>
+                <li><button className="w-full text-left block py-3 text-[19px] text-gray-300 hover:text-white transition">Find a Job</button></li>
+                <li><button className="w-full text-left block py-3 text-[19px] text-gray-300 hover:text-white transition">Hire</button></li>
+                <li><button className="w-full text-left block py-3 text-[19px] text-gray-300 hover:text-white transition">More</button></li>
+            </ul>
+        </div>
+      </nav>
     </header>
   );
 }

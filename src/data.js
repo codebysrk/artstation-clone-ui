@@ -10,7 +10,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Senior Matte Painter'
     },
-    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe??w=400&q=60&auto=format&fit=crop', 
     category: 'Characters',
     description: 'An extremely detailed study on heavy golden armor plates, sculpted with divine feline details. Modelled in ZBrush and rendered in Cinema4D with Octane Renderer.',
     likes: 3120,
@@ -32,7 +32,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: true,
       role: 'Lead Character Designer'
     },
-    image: 'https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1509248961158-e54f6934749c??w=400&q=60&auto=format&fit=crop', 
     category: '3D',
     description: 'A terrifying creature of the deep. Sculpted organic wrinkles, wet shaders, and intricate tentacles reaching from the shadows.',
     likes: 2450,
@@ -54,7 +54,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Digital Architect'
     },
-    image: 'https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1448375240586-882707db888b??w=400&q=60&auto=format&fit=crop', 
     category: 'Environment',
     description: 'Minimalist sci-fi environment structure overgrown with bright green moss and glowing orange biotextures.',
     likes: 1890,
@@ -76,7 +76,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Environment Illustrator'
     },
-    image: 'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1505118380757-91f5f5632de0??w=400&q=60&auto=format&fit=crop', 
     category: 'Illustration',
     description: 'A dark, moody coastal landscape with crumbling gothic towers and blood-red waves inspired by Diablo lore.',
     likes: 4210,
@@ -99,7 +99,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Heavy Surface Modeler'
     },
-    image: 'https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa??w=400&q=60&auto=format&fit=crop', 
     category: 'Characters',
     description: 'Hard surface modelling of sleek carbon-fiber armor panels and mechanical joint interfaces on a tactical runner archetype.',
     likes: 3820,
@@ -121,7 +121,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Senior Matte Painter'
     },
-    image: 'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86??w=400&q=60&auto=format&fit=crop', 
     category: 'Illustration',
     description: 'Whimsical, colorful village architecture with steep red roofs and snowy accents in Slavic core aesthetic.',
     likes: 1950,
@@ -143,7 +143,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Digital Painter'
     },
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2??w=400&q=60&auto=format&fit=crop', 
     category: 'Characters',
     description: 'A loose, expressive portrait study focusing on realistic facial structures, lighting, and messy black hair movement.',
     likes: 2710,
@@ -165,7 +165,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Environment Illustrator'
     },
-    image: 'https://images.unsplash.com/photo-1560942485-b2a11cc13456?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1560942485-b2a11cc13456??w=400&q=60&auto=format&fit=crop', 
     category: 'Characters',
     description: 'Stylized 3D character design of an eared pilot wearing futuristic orange and white gear.',
     likes: 4950,
@@ -188,7 +188,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Heavy Surface Modeler'
     },
-    image: 'https://images.unsplash.com/photo-1500964757637-c85e8a162699?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1500964757637-c85e8a162699??w=400&q=60&auto=format&fit=crop', 
     category: '3D',
     description: 'An imposing sci-fi robotic machine with glowing gold and white circular gravity rings floating around its torso.',
     likes: 1820,
@@ -210,7 +210,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Digital Architect'
     },
-    image: 'https://images.unsplash.com/photo-1535663110196-5d042c140446?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1535663110196-5d042c140446??w=400&q=60&auto=format&fit=crop', 
     category: 'Characters',
     description: 'Concept design of a futuristic ninja with sharp purple shards and a fully illuminated bio-helmet.',
     likes: 2150,
@@ -232,7 +232,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: true,
       role: 'Lead Character Designer'
     },
-    image: 'https://images.unsplash.com/photo-1559893088-c0787ebfc084?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1559893088-c0787ebfc084??w=400&q=60&auto=format&fit=crop', 
     category: '3D',
     description: 'An heavily bandaged rope warrior made in Unreal Engine, demonstrating advanced texture realism and light shading.',
     likes: 3110,
@@ -254,7 +254,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Senior Matte Painter'
     },
-    image: 'https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1502082553048-f009c37129b9??w=400&q=60&auto=format&fit=crop', 
     category: '2D',
     description: 'A gentle colossal protector made of living roots, oak branches, and stone armor plates.',
     likes: 1720,
@@ -277,7 +277,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Heavy Surface Modeler'
     },
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475??w=400&q=60&auto=format&fit=crop', 
     category: '3D',
     description: 'A study on extremely high-density polygon mechanical structures, heat pipes, and exhaust valves.',
     likes: 950,
@@ -299,7 +299,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: true,
       role: 'Lead Character Designer'
     },
-    image: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91??w=400&q=60&auto=format&fit=crop', 
     category: 'Characters',
     description: 'A female skull shaman bound in leather bandages, holding high-contrast visual feather emblems and crescent moon decorations.',
     likes: 1980,
@@ -321,7 +321,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Digital Architect'
     },
-    image: 'https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1564507592333-c60657eea523??w=400&q=60&auto=format&fit=crop', 
     category: 'Environment',
     description: 'Gorgeous white dome structures built into sunlit canyon edges, rendered in beautiful daylight with crowd overlays.',
     likes: 2110,
@@ -343,7 +343,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Digital Painter'
     },
-    image: 'https://images.unsplash.com/photo-1582139329536-e7284fece509?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1582139329536-e7284fece509??w=400&q=60&auto=format&fit=crop', 
     category: 'Illustration',
     description: 'Highly detailed rug pattern designs handcrafted for Indiana Jones and the Great Circle cinematic assets.',
     likes: 3420,
@@ -366,7 +366,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Environment Illustrator'
     },
-    image: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5??w=400&q=60&auto=format&fit=crop', 
     category: 'Environment',
     description: 'A sci-fi operative walking alongside a robotic beast with glowing red eyes in a desolate cold city street.',
     likes: 2900,
@@ -388,7 +388,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Digital Painter'
     },
-    image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2??w=400&q=60&auto=format&fit=crop', 
     category: 'Illustration',
     description: 'Close-up of a sorrowful dark-haired woman holding her lover. Branded with the mythological Sunyata myths layout.',
     likes: 2430,
@@ -410,7 +410,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Heavy Surface Modeler'
     },
-    image: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1534447677768-be436bb09401??w=400&q=60&auto=format&fit=crop', 
     category: '3D',
     description: 'A comprehensive multi-angle hard-surface render breakdown of Optimus and Bumblebee robot forms.',
     likes: 1840,
@@ -432,7 +432,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: true,
       role: 'Lead Character Designer'
     },
-    image: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119??w=400&q=60&auto=format&fit=crop', 
     category: 'Illustration',
     description: 'Fan art exploration of a rumored boss from Elden Ring sequel - the terrifying multi-tentacled Abyssal Serpent.',
     likes: 5600,
@@ -455,7 +455,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Heavy Surface Modeler'
     },
-    image: 'https://images.unsplash.com/photo-1594489428504-5c0c480a15fd?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1594489428504-5c0c480a15fd??w=400&q=60&auto=format&fit=crop', 
     category: '3D',
     description: 'A study on extremely clean hard-surface topologies for a foldable survival pocket knife tool.',
     likes: 1300,
@@ -477,7 +477,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Senior Matte Painter'
     },
-    image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb??w=400&q=60&auto=format&fit=crop', 
     category: 'Illustration',
     description: 'Stylized noodle-golem character art tribute of Amumu from League of Legends.',
     likes: 3120,
@@ -499,7 +499,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: true,
       role: 'Lead Character Designer'
     },
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c??w=400&q=60&auto=format&fit=crop', 
     category: '3D',
     description: 'Handcrafted stylized medieval battle mallet fashioned with steel bands and a stout wooden barrel head.',
     likes: 1100,
@@ -521,7 +521,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Environment Illustrator'
     },
-    image: 'https://images.unsplash.com/photo-1519074069444-1ba4e6664104?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1519074069444-1ba4e6664104??w=400&q=60&auto=format&fit=crop', 
     category: 'Illustration',
     description: 'Stunning painterly piece showing a green-clothed scout looking towards crystals glowing in deep caverns.',
     likes: 2700,
@@ -544,7 +544,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Digital Architect'
     },
-    image: 'https://images.unsplash.com/photo-1584483768514-df6990969b83?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1584483768514-df6990969b83??w=400&q=60&auto=format&fit=crop', 
     category: 'Environment',
     description: 'Hyper-realistic study of a damaged diagonal street construction barricade, labeled Broken Gear.',
     likes: 920,
@@ -566,7 +566,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Digital Painter'
     },
-    image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab??w=400&q=60&auto=format&fit=crop', 
     category: 'Characters',
     description: 'Soft-body cartoon toy study of a cute pink crowned furry creature. Handpainted texture maps.',
     likes: 1650,
@@ -588,7 +588,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: true,
       role: 'Lead Character Designer'
     },
-    image: 'https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5??w=400&q=60&auto=format&fit=crop', 
     category: '3D',
     description: 'Relighting showcase of decay cathedral stone pillars under frozen winter winds in Unreal Engine 5.',
     likes: 3820,
@@ -610,7 +610,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Digital Painter'
     },
-    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d??w=400&q=60&auto=format&fit=crop', 
     category: 'Characters',
     description: 'Anatomical model hair styling research. Perfect volumetric strokes on deep grey canvas.',
     likes: 1210,
@@ -633,7 +633,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Heavy Surface Modeler'
     },
-    image: 'https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1595590424283-b8f17842773f??w=400&q=60&auto=format&fit=crop', 
     category: '3D',
     description: 'Hard-surface breakdown of a tactical sniper scope sight element with wear patterns.',
     likes: 1450,
@@ -655,7 +655,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Environment Illustrator'
     },
-    image: 'https://images.unsplash.com/photo-1563089145-599997674d42?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1563089145-599997674d42??w=400&q=60&auto=format&fit=crop', 
     category: 'Characters',
     description: 'concept model of a biomechanical soldier covered in glowing viscous green sludge.',
     likes: 2120,
@@ -677,7 +677,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: true,
       role: 'Lead Character Designer'
     },
-    image: 'https://images.unsplash.com/photo-1500485035595-cbe6f645feb1?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1500485035595-cbe6f645feb1??w=400&q=60&auto=format&fit=crop', 
     category: '3D',
     description: 'Macabre design of custom tumor cells and alien organic growth structures.',
     likes: 1390,
@@ -699,7 +699,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Digital Architect'
     },
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23??w=400&q=60&auto=format&fit=crop', 
     category: 'Environment',
     description: 'Fantasy mentorship landscape artwork showing stone portals and neon crystals at deep vault levels.',
     likes: 2980,
@@ -722,7 +722,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Senior Matte Painter'
     },
-    image: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1501854140801-50d01698950b??w=400&q=60&auto=format&fit=crop', 
     category: 'Environment',
     description: 'Ancient decaying ribs of a giant wooden ship buried deep inside mossy valley hills.',
     likes: 1910,
@@ -744,7 +744,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Heavy Surface Modeler'
     },
-    image: 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809??w=400&q=60&auto=format&fit=crop', 
     category: '3D',
     description: 'White and grey hard-surface helmet design with diagnostic feedback hud.',
     likes: 1420,
@@ -766,7 +766,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: true,
       role: 'Lead Character Designer'
     },
-    image: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1519681393784-d120267933ba??w=400&q=60&auto=format&fit=crop', 
     category: '3D',
     description: 'Frozen broadsword decoration designed with complex frost skulls and glowing blue ice gems.',
     likes: 3120,
@@ -788,7 +788,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Digital Architect'
     },
-    image: 'https://images.unsplash.com/photo-1511497584788-876760111969?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1511497584788-876760111969??w=400&q=60&auto=format&fit=crop', 
     category: 'Environment',
     description: 'Desolate yellow truck parked on a crumbling highway border at a warm pink sunset.',
     likes: 1850,
@@ -811,7 +811,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Digital Painter'
     },
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d??w=400&q=60&auto=format&fit=crop', 
     category: 'Characters',
     description: 'Fidelity volumetric dreadlocks rendering research in Unreal Engine 5 with metahuman shaders.',
     likes: 2150,
@@ -833,7 +833,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: true,
       role: 'Lead Character Designer'
     },
-    image: 'https://images.unsplash.com/photo-1500048993953-d23a436266cf?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1500048993953-d23a436266cf??w=400&q=60&auto=format&fit=crop', 
     category: 'Characters',
     description: 'Noble old knight with white beard and decorated red metallic shoulder guard plate.',
     likes: 3890,
@@ -855,7 +855,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Heavy Surface Modeler'
     },
-    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6??w=400&q=60&auto=format&fit=crop', 
     category: '3D',
     description: 'Precision scopes and optics study for heavy bolt-action sniper systems.',
     likes: 1200,
@@ -877,7 +877,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Environment Illustrator'
     },
-    image: 'https://images.unsplash.com/photo-1534224039826-c7a0dea0e66a?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1534224039826-c7a0dea0e66a??w=400&q=60&auto=format&fit=crop', 
     category: 'Characters',
     description: 'Concept artwork of multiple space-guards in dynamic golden high-tech armor uniforms.',
     likes: 1980,
@@ -900,7 +900,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Senior Matte Painter'
     },
-    image: 'https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1517411032315-54ef2cb783bb??w=400&q=60&auto=format&fit=crop', 
     category: '2D',
     description: 'Immersive red-glowing brass lantern study. Focus on handpainted glass refraction.',
     likes: 1450,
@@ -922,7 +922,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Digital Architect'
     },
-    image: 'https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1544256718-3bcf237f3974??w=400&q=60&auto=format&fit=crop', 
     category: 'Illustration',
     description: 'Dynamic rough linework and layout blocks for future mecha sentinel models.',
     likes: 1820,
@@ -944,7 +944,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Heavy Surface Modeler'
     },
-    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe??w=400&q=60&auto=format&fit=crop', 
     category: '3D',
     description: 'Black and red customized assault firearm weapon labeled Marathon Fanart.',
     likes: 4200,
@@ -966,7 +966,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: true,
       role: 'Lead Character Designer'
     },
-    image: 'https://images.unsplash.com/photo-1519074069444-1ba4e6664104?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1519074069444-1ba4e6664104??w=400&q=60&auto=format&fit=crop', 
     category: 'Characters',
     description: 'Strong full-body stance pose of a female knight lifting a heavy broadsword.',
     likes: 2900,
@@ -988,7 +988,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Digital Painter'
     },
-    image: 'https://images.unsplash.com/photo-1560942485-b2a11cc13456?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1560942485-b2a11cc13456??w=400&q=60&auto=format&fit=crop', 
     category: 'Illustration',
     description: 'Portrait drawing of a cartoon aircraft pilot girl with red scarf and dynamic goggles.',
     likes: 3110,
@@ -1010,7 +1010,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Environment Illustrator'
     },
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2??w=400&q=60&auto=format&fit=crop', 
     category: 'Illustration',
     description: 'High-contrast detailed anime fighter model with realistic shadows.',
     likes: 2150,
@@ -1032,7 +1032,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: true,
       role: 'Lead Character Designer'
     },
-    image: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04??w=400&q=60&auto=format&fit=crop', 
     category: 'Characters',
     description: 'Close-up jester girl design with deep purple lips, gothic clown makeup and bright blue hair.',
     likes: 3990,
@@ -1054,7 +1054,7 @@ export const INITIAL_ARTWORKS = [
       followedByMe: false,
       role: 'Senior Matte Painter'
     },
-    image: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop', 
+    image: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5??w=400&q=60&auto=format&fit=crop', 
     category: '3D',
     description: 'Study of ocean saltwater wood grain textures and custom carved horses on ancient tall ships.',
     likes: 4120,

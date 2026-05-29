@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'motion/react';
 
-export default function ArtworkCard({ artwork }) {
+export default function ArtworkCard({ artwork, index = 100 }) {
+  const isEager = index < 12; // Eager load the first 12 images
   return (
     <motion.div
       layout
@@ -10,7 +11,9 @@ export default function ArtworkCard({ artwork }) {
       <img
         src={artwork.image}
         alt={artwork.title}
-        loading="lazy"
+        loading={isEager ? "eager" : "lazy"}
+        fetchpriority={isEager ? "high" : "auto"}
+        decoding="async"
         className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

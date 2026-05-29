@@ -72,7 +72,7 @@ export default function App() {
 
         <section className="w-full px-4 pt-6 pb-4 max-w-[1920px] mx-auto">
           <div className="flex gap-4 overflow-x-auto no-scrollbar scroll-smooth snap-x snap-mandatory">
-            {HERO_CARDS.map(card => (
+            {HERO_CARDS.map((card, idx) => (
               <div 
                 key={card.id} 
                 className="snap-start shrink-0 relative w-[85vw] md:w-[40vw] lg:w-[400px] aspect-[16/9] lg:h-[220px] rounded-2xl overflow-hidden group cursor-pointer"
@@ -80,6 +80,9 @@ export default function App() {
                 <img 
                   src={card.image} 
                   alt={card.title} 
+                  loading={idx < 2 ? "eager" : "lazy"}
+                  fetchpriority={idx < 2 ? "high" : "auto"}
+                  decoding="async"
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
@@ -139,8 +142,8 @@ export default function App() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-[2px]">
 
-            {INITIAL_ARTWORKS.slice(0, 18).map((art) => (
-              <ArtworkCard key={art.id} artwork={art} />
+            {INITIAL_ARTWORKS.slice(0, 18).map((art, idx) => (
+              <ArtworkCard key={art.id} artwork={art} index={idx} />
             ))}
 
             <div className="col-span-full w-full bg-gradient-to-r from-[#03061C] via-[#091544] to-[#14429B] flex flex-col lg:flex-row items-center justify-between gap-6 my-2 lg:my-[2px] p-6 lg:p-8 rounded-none">
@@ -166,7 +169,7 @@ export default function App() {
                   { title: "- GateKeeper -", artist: "Nazz Abdoel", img: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=500&auto=format&fit=crop" }
                 ].map((item, idx) => (
                   <div key={idx} className={`relative rounded-xl overflow-hidden aspect-square border border-white/10 shadow-xl group cursor-pointer ${idx === 3 ? 'hidden lg:block' : ''}`}>
-                    <img src={item.img} alt={item.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                    <img src={item.img} alt={item.title} loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
                     <div className="absolute bottom-3 left-3 right-3 text-left">
                       <h4 className="text-white text-[12px] font-bold truncate">{item.title}</h4>
@@ -178,8 +181,8 @@ export default function App() {
               </div>
             </div>
 
-            {INITIAL_ARTWORKS.slice(18).map((art) => (
-              <ArtworkCard key={art.id} artwork={art} />
+            {INITIAL_ARTWORKS.slice(18).map((art, idx) => (
+              <ArtworkCard key={art.id} artwork={art} index={idx + 18} />
             ))}
           </div>
         </section>
